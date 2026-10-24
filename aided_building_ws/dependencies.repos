@@ -1,0 +1,9 @@
+repositories:
+  franka_description:
+    type: git
+    url: https://github.com/frankarobotics/franka_description.git
+    version: main
+  gz_ros2_control:
+    type: git
+    url: https://github.com/ros-controls/gz_ros2_control.git
+    version: jazzy

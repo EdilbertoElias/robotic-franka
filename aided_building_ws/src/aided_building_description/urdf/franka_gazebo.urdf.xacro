@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="fr3">
+
+  <xacro:arg name="xyz" default="0 0 0"/>
+  <xacro:arg name="rpy" default="0 0 0"/>
+
+  <xacro:arg name="connected_to" default=""/>
+  <xacro:arg name="hand" default="false"/>
+  <xacro:arg name="include_self_collision_geometry" default="false"/>
+
+  <link name="world"/>
+  <joint name="world_joint" type="fixed">
+    <origin xyz="$(arg xyz)" rpy="$(arg rpy)"/>
+    <parent link="world"/>
+    <child link="fr3_link0"/>
+  </joint>
+
+  <xacro:include filename="$(find franka_description)/robots/fr3/fr3.urdf.xacro"/>
+
+  <ros2_control name="FrankaSystem" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+
+    <joint name="fr3_joint1">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint2">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">-0.785398</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint3">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint4">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">-2.356194</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint5">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint6">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">1.570796</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="fr3_joint7">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.785398</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(find aided_building_description)/config/controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>
