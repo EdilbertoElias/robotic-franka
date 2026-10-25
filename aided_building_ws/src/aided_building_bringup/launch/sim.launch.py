@@ -64,6 +64,7 @@ def generate_launch_description():
     move_duration = LaunchConfiguration('move_duration')
     safe_zone_joints = LaunchConfiguration('safe_zone_joints')
     work_zone_joints = LaunchConfiguration('work_zone_joints')
+    start_gripper = LaunchConfiguration('start_gripper')
 
     franka_share = get_package_share_directory('franka_description')
     description_share = get_package_share_directory('aided_building_description')
@@ -123,6 +124,7 @@ def generate_launch_description():
         name='arm_controller_spawner',
         arguments=[
             'fr3_arm_controller',
+            'fr3_gripper_controller',
             '--controller-manager-timeout', '300',
         ],
         parameters=[{'use_sim_time': True}],
@@ -176,6 +178,17 @@ def generate_launch_description():
         condition=IfCondition(spawn_operator_hand),
     )
 
+    gripper = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(os.path.join(
+            get_package_share_directory('aided_building_gripper'),
+            'launch', 'gripper.launch.py')),
+        launch_arguments={
+            'use_sim': 'true',
+            'use_sim_time': use_sim_time,
+        }.items(),
+        condition=IfCondition(start_gripper),
+    )
+
     return LaunchDescription([
         DeclareLaunchArgument(
             'xyz', default_value='0 0 0',
@@ -192,6 +205,9 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'start_comm', default_value='true',
             description='Start the simple ROS 2 command node'),
+        DeclareLaunchArgument(
+            'start_gripper', default_value='true',
+            description='Start the simulated gripper server (/franka_gripper/*)'),
         DeclareLaunchArgument(
             'scenario', default_value='scenario_1',
             description='Scenario profile from zones.yaml (scenario_1/2/3)'),
@@ -245,4 +261,5 @@ def generate_launch_description():
         TimerAction(period=10.0, actions=[load_arm_controller]),
         rviz,
         comm,
+        gripper,
     ])
