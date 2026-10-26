@@ -13,3 +13,9 @@ repositories:
     type: git
     url: https://github.com/ros-controls/gz_ros2_control.git
     version: jazzy
+  libfranka:
+    type: git
+    url: https://github.com/frankarobotics/libfranka.git
+    # Real robot only. Same version pinned by franka_ros2 (jazzy); it must also
+    # be compatible with the robot's system version (check in Desk).
+    version: 0.20.5
