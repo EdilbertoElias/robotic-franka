@@ -1,0 +1,21 @@
+# Geometry of the work cell. `workbench` is the frame of the ArUco marker lying
+# on the table (origin at the marker center, z up).
+
+# PROVISIONAL until the real robot is available: measure where the marker is
+# relative to the robot base and replace these values.
+# Default: marker 0.50 m in front of the robot, with workbench +x pointing back
+# toward the operator (yaw = pi).
+robot_base_to_workbench:
+  parent_frame: fr3_link0
+  child_frame: workbench
+  translation: [0.50, 0.0, 0.0]
+  rpy: [0.0, 0.0, 3.14159265]
+
+# Used only while no ArUco calibration file exists. Rough notebook setup:
+# camera 0.35 m behind the marker, 0.30 m above the table, looking toward the
+# robot and tilted 30 deg down.
+fallback_camera:
+  child_frame: camera_optical_frame
+  position: [-0.35, 0.0, 0.30]
+  yaw_deg: 0.0
+  pitch_down_deg: 30.0

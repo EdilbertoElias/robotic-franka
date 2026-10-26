@@ -1,0 +1,25 @@
+hand_detector:
+  ros__parameters:
+    model_path: ~/models/hand_landmarker.task
+    base_frame: fr3_link0
+    plane_frame: workbench
+    # Height of the palm above the table (m); hands are projected onto this plane
+    plane_height: 0.02
+    # Hand zone (top view): smallest rectangle around the landmarks, grown by
+    # zone_margin on every side, extruded from the table up to zone_height
+    zone_margin: 0.03
+    zone_height: 0.10
+    # Frame whose origin is the point of the tool that can touch the user
+    # (flange for now; replace with the soldering tip frame)
+    tool_frame: fr3_link8
+    # MediaPipe assumes selfie (mirrored) images; v4l2_camera images are not mirrored
+    image_is_mirrored: false
+    num_hands: 2
+    min_detection_confidence: 0.5
+    min_tracking_confidence: 0.5
+    # One Euro filter: lower min_cutoff = smoother at rest, higher beta = less lag when moving
+    filter_min_cutoff: 1.0
+    filter_beta: 2.0
+    lost_timeout: 0.5
+    robot_links: [fr3_link0, fr3_link1, fr3_link2, fr3_link3, fr3_link4,
+                  fr3_link5, fr3_link6, fr3_link7, fr3_link8]

@@ -1,0 +1,9 @@
+# v4l2_camera: stamps each frame with now() at capture (usb_cam 0.8.1 has a
+# timestamp offset/drift bug, see the package README)
+/**:
+  ros__parameters:
+    video_device: /dev/video0
+    image_size: [640, 480]
+    pixel_format: YUYV
+    camera_frame_id: camera_optical_frame
+    camera_info_url: file://${ROS_HOME}/camera_info/notebook_cam.yaml
