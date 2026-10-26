@@ -1,0 +1,9 @@
+# colcon
+aided_building_ws/build/
+aided_building_ws/install/
+aided_building_ws/log/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
