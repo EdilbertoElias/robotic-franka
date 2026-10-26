@@ -1,0 +1,1422 @@
+[INFO] [launch]: All log files can be found below /home/mgustav/.ros/log/2026-10-26-02-10-39-665452-Mbgustav-froid-208301
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gazebo-1]: process started with pid [208312]
+[INFO] [parameter_bridge-2]: process started with pid [208313]
+[INFO] [clock_filter-3]: process started with pid [208314]
+[INFO] [robot_state_publisher-4]: process started with pid [208315]
+[INFO] [create-5]: process started with pid [208317]
+[INFO] [create-6]: process started with pid [208318]
+[INFO] [rviz2-7]: process started with pid [208319]
+[INFO] [comm_node-8]: process started with pid [208320]
+[robot_state_publisher-4] [INFO] [1792977040.234991898] [robot_state_publisher]: Robot initialized
+[create-6] [INFO] [1792977040.246091159] [spawn_operator_hand]: Requesting list of world names.
+[create-5] [INFO] [1792977040.251395159] [spawn_franka]: Requesting list of world names.
+[parameter_bridge-2] [INFO] [1792977040.287306402] [clock_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[clock_filter-3] [INFO] [1792977040.600620344] [clock_filter]: Republishing /clock_raw as monotonic /clock
+[rviz2-7] [INFO] [1792977040.792283170] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1792977040.792482960] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[comm_node-8] [INFO] [1792977040.825423845] [franka_comm]: Publishing trajectories to /fr3_arm_controller/joint_trajectory; targets on /franka/joint_targets; auto_move_to_safe_zone=True
+[rviz2-7] [INFO] [1792977040.831291846] [rviz2]: Stereo is NOT SUPPORTED
+[create-5] [INFO] [1792977041.066521689] [spawn_franka]: Waiting messages on topic [/robot_description].
+[create-6] [INFO] [1792977041.267151810] [spawn_operator_hand]: Entity creation successful.
+[create-5] [INFO] [1792977041.267590832] [spawn_franka]: Entity creation successful.
+[INFO] [create-6]: process has finished cleanly [pid 208318]
+[INFO] [create-5]: process has finished cleanly [pid 208317]
+[gazebo-1] [INFO] [1792977042.720310808] [gz_ros_control]: [gz_ros2_control] Fixed joint ['world_joint'] (Entity='35') is skipped.
+[gazebo-1] [INFO] [1792977042.726201593] [gz_ros_control]: Loading controller_manager
+[gazebo-1] [INFO] [1792977042.748545670] [controller_manager]: Using ROS clock for triggering controller manager cycles.
+[gazebo-1] [WARN] [1792977042.748627704] [controller_manager]: The resource manager is not yet initialized, will wait for the robot description to initialize it..
+[gazebo-1] [INFO] [1792977042.764002221] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[gazebo-1] [WARN] [1792977042.764284468] [gz_ros_control]: Waiting RM to load and initialize hardware...
+[gazebo-1] [INFO] [1792977042.891371825] [controller_manager]: Received robot description from topic.
+[gazebo-1] [INFO] [1792977042.891511087] [controller_manager]: Enforcing command limits is disabled. Command limits from URDF will be ignored.
+[gazebo-1] [INFO] [1792977042.910078026] [gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-1] [INFO] [1792977042.911733887] [gz_ros_control]: Loading joint: fr3_joint1
+[gazebo-1] [INFO] [1792977042.911830766] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1792977042.911846506] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.912214699] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1792977042.912254141] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1792977042.912534911] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1792977042.912548116] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.912979059] [gz_ros_control]: Loading joint: fr3_joint2
+[gazebo-1] [INFO] [1792977042.912995729] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1792977042.913004563] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913020077] [gz_ros_control]: 			 found initial value: -0.785398
+[gazebo-1] [INFO] [1792977042.913033443] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1792977042.913043576] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1792977042.913048514] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913114081] [gz_ros_control]: Loading joint: fr3_joint3
+[gazebo-1] [INFO] [1792977042.913122897] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1792977042.913135967] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913147885] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1792977042.913154821] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1792977042.913161350] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1792977042.913167050] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913195807] [gz_ros_control]: Loading joint: fr3_joint4
+[gazebo-1] [INFO] [1792977042.913205207] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1792977042.913210214] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913216450] [gz_ros_control]: 			 found initial value: -2.356194
+[gazebo-1] [INFO] [1792977042.913222137] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1792977042.913227793] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1792977042.913232707] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913254336] [gz_ros_control]: Loading joint: fr3_joint5
+[gazebo-1] [INFO] [1792977042.913262376] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1792977042.913267827] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913282637] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1792977042.913289653] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1792977042.913312006] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1792977042.913318427] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913352512] [gz_ros_control]: Loading joint: fr3_joint6
+[gazebo-1] [INFO] [1792977042.913359990] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1792977042.913365117] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913370630] [gz_ros_control]: 			 found initial value: 1.570796
+[gazebo-1] [INFO] [1792977042.913375955] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1792977042.913381101] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1792977042.913385362] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913405667] [gz_ros_control]: Loading joint: fr3_joint7
+[gazebo-1] [INFO] [1792977042.913412443] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1792977042.913417630] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.913423698] [gz_ros_control]: 			 found initial value: 0.785398
+[gazebo-1] [INFO] [1792977042.913430002] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1792977042.913435526] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1792977042.913441444] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1792977042.915340638] [controller_manager]: Initialize hardware 'FrankaSystem' 
+[gazebo-1] [WARN] [1792977042.915426295] [controller_manager.hardware_component.system.FrankaSystem]: Executor is not available during hardware component initialization for 'FrankaSystem'. Skipping node creation!
+[gazebo-1] [INFO] [1792977042.915557478] [controller_manager]: Successful initialization of hardware 'FrankaSystem'
+[gazebo-1] [INFO] [1792977042.916470169] [controller_manager]: Activating component 'FrankaSystem'.
+[gazebo-1] [INFO] [1792977042.916515877] [resource_manager]: 'configure' hardware 'FrankaSystem' 
+[gazebo-1] [INFO] [1792977042.916531752] [gz_ros_control]: System Successfully configured!
+[gazebo-1] [INFO] [1792977042.916543777] [resource_manager]: Successful 'configure' of hardware 'FrankaSystem'
+[gazebo-1] [INFO] [1792977042.916556306] [resource_manager]: 'activate' hardware 'FrankaSystem' 
+[gazebo-1] [INFO] [1792977042.916578959] [resource_manager]: Successful 'activate' of hardware 'FrankaSystem'
+[gazebo-1] [WARN] [1792977042.916697562] [controller_manager]: Component 'FrankaSystem' does not have read or write statistics initialized, skipping registration.
+[gazebo-1] [INFO] [1792977042.916733524] [controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[gazebo-1] [WARN] [1792977044.883467748] [controller_manager]: No clock received, using time argument instead! Check your node's clock configuration (use_sim_time parameter) and if a valid clock source is available
+[rviz2-7] [WARN] [1792977044.949986176] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977044.951366264] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977044.968330159] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977044.968403561] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977044.970112749] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977044.970171533] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[gazebo-1] [INFO] [1792977044.989876743] [controller_manager]: Received robot description from topic.
+[gazebo-1] [WARN] [1792977044.989935070] [controller_manager]: ResourceManager has already loaded a urdf and is initialized. Ignoring attempt to reload a robot description.
+[rviz2-7] [WARN] [1792977044.990427378] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977044.990490159] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977044.992193369] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977044.992264055] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.000308663] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.000366484] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.001827761] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.001877049] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.004848185] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.004911780] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.006343983] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.006401901] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.020715618] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.020777535] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.023245557] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.023303152] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.033785027] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.033847433] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.076707895] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.076802780] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.079427037] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.079489608] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.081049450] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.081098176] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.109116862] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.109182811] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.152036118] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.152088129] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.153753741] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.153837676] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.154797501] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.154852243] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.157792411] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.157850273] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.176911373] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.177018103] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.192975355] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.193037963] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.197871407] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.197968009] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.202062973] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.202121067] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.265460717] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.265508673] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [spawner-9]: process started with pid [208636]
+[rviz2-7] [WARN] [1792977045.414735470] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.414979447] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.436280791] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.436352913] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.440683961] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.440738651] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.451345885] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.451491909] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.496091499] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.496148230] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.550621650] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.550690698] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.551085852] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.551119380] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.594245309] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.594707143] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.642038179] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.642105305] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.666397469] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.666506521] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.690831417] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.690892948] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.693289371] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.693352786] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.782584904] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.782652434] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.884538717] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.884604247] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.889263579] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.889334171] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.894230174] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.894285665] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.904094882] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.904153595] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.924576673] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.924632629] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977045.949820001] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977045.949921203] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.009778589] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.009864552] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.034459308] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.034522684] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.103689115] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.103748813] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.104478850] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.104514659] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.141544201] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.142527119] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.169194774] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.169255158] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.176512166] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.176611832] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.183317281] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.183371556] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.190560672] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.190622133] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.242523107] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.242602134] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.256599951] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.256661596] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.264481877] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.264548653] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.285697827] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.285762768] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.335323695] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.336679028] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.338141712] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.338193289] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.361563190] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.361790953] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.495277190] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.495350433] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.507475804] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.507553636] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.575873525] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.576174725] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.586288740] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.586372610] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.587651160] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.587712635] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.653509234] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.653827599] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.730566228] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.732019950] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.761878928] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.761944365] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.801646882] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.802155913] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.813905947] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.814057551] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[spawner-9] [INFO] [1792977046.851138046] [controller_spawner]: waiting for service /controller_manager/list_controllers to become available...
+[rviz2-7] [WARN] [1792977046.851205950] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.851272333] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.870898897] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.870962560] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.916180229] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.916559489] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977046.920763343] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977046.920944803] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.001567488] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.001871724] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.051202419] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.051280848] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.139617973] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.139739390] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.174538341] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.174668767] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.300562437] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.301465136] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.321354385] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.321539366] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.390394545] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.390551305] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.434884531] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.434982514] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.474039151] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.474181862] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.536037054] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.536113989] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.625368424] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.625474761] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.651540363] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.651605837] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.702347475] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.702532819] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.735108358] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.735285219] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.745360738] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.745435639] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.766895009] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.767128533] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.824537443] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.824682651] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.841651502] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.841735139] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.863046684] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.863226586] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.879821086] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.880029120] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.894051655] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.894156849] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.928052953] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.928373741] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.987768843] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.987836539] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977047.988919554] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977047.988976319] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.000542680] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.000907678] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.024987319] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.025091540] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.069446730] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.069526897] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.083076039] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.083277554] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.133472708] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.133603393] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.151664926] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.151743866] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.158436637] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.158532800] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.200812695] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.200885043] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.258577989] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.258676860] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.282354768] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.282423442] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.379968037] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.380026138] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.381570181] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.381623865] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.390952445] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.391433560] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.452925809] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.453005001] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.530977811] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.531434015] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.534270526] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.534365468] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.613638240] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.613756601] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.739187846] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.739243473] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.776435221] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.776511379] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.824371686] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.824504985] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.849705572] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.849800309] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.859691652] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.859991180] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.870692688] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.870766077] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.885136017] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.885404595] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.923506263] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.923592346] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.929017507] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.929079718] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977048.956044591] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977048.956181790] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.032187771] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.032372829] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.037434156] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.037682420] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.059576017] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.059688218] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.099630165] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.099847134] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.118224429] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.118428407] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.209382555] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.209453333] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.236081395] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.236156536] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.243778363] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.243864740] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.258264256] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.258457348] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.283098964] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.283228936] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.334175275] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.334249829] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.342574539] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.342743498] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.357544064] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.357609792] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.376169926] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.376270438] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.387930901] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.388122376] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.495371089] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.495609092] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.521382881] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.521521727] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.525773913] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.526403853] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.539700385] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.540541829] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.555953054] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.556135096] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.604254494] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.604372419] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.609429368] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.613253243] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.638658467] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.639554194] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.645449664] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.645509635] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.666421402] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.666595316] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.715915504] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.716063832] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.786931761] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.787053091] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.791949580] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.792068438] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.838405545] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.839747430] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.845134080] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.846005260] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977049.856580081] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.856724851] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[spawner-9] [INFO] [1792977049.895459796] [controller_spawner]: Setting controller param "params_file" to "['/tmp/launch_params_keiqtlit']" for joint_state_broadcaster
+[gazebo-1] [INFO] [1792977049.903578597] [controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[gazebo-1] [INFO] [1792977049.903721257] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[rviz2-7] [WARN] [1792977049.952342352] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977049.952415709] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[gazebo-1] [INFO] [1792977049.967398636] [controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /home/mgustav/git-repos/robot-robotique/aided_building_ws/install/aided_building_description/share/aided_building_description/config/controllers.yaml -p use_sim_time:=true --params-file /tmp/launch_params_keiqtlit --param use_sim_time:=true 
+[rviz2-7] [WARN] [1792977050.013588893] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.013658536] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.043760470] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.043862652] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[spawner-9] [INFO] [1792977050.067009602] [controller_spawner]: Loaded joint_state_broadcaster
+[gazebo-1] [INFO] [1792977050.078009334] [controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-1] [INFO] [1792977050.081443775] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[rviz2-7] [WARN] [1792977050.083265666] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.083414024] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.092016161] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.092156977] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.170423930] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.170703132] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [spawner-10]: process started with pid [208689]
+[rviz2-7] [WARN] [1792977050.190917823] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.191058186] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.192618431] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.192657429] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.219204909] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.219260987] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[gazebo-1] [INFO] [1792977050.274207998] [controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[gazebo-1] [INFO] [1792977050.279550461] [controller_manager]: Successfully switched controllers!
+[spawner-9] [INFO] [1792977050.284622155] [controller_spawner]: Configured and activated joint_state_broadcaster
+[rviz2-7] [WARN] [1792977050.298907948] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.299007289] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.349331042] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.349407766] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.362628075] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.362687622] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.408667943] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.408757631] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.410758518] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.410846827] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.414674752] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.414797632] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.423369072] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.423474242] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.484125291] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.484200750] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.541495883] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.541556641] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [spawner-9]: process has finished cleanly [pid 208636]
+[rviz2-7] [WARN] [1792977050.674240708] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.674346608] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.730104911] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.730252035] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.743230338] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.743303044] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.749415420] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.749593873] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.817192504] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.817247142] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.848779253] [rviz2]: Detected jump back in time. Resetting RViz.
+[robot_state_publisher-4] [WARN] [1792977050.850312494] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977050.850613023] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.868038209] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.868800704] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.925246780] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977050.925318713] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977050.999884989] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.000073680] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.123825367] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.124416407] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.206612482] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.207332169] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.264506313] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.264560468] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977051.268379274] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977051.269825870] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.269881544] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977051.270615682] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977051.391737037] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.391806889] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.400281121] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.400530109] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.411293115] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.411358804] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.428577672] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.428638271] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.447085720] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.447218403] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.522526582] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.522716783] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.561602629] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.562057386] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[spawner-10] [INFO] [1792977051.605574602] [arm_controller_spawner]: Setting controller param "params_file" to "['/tmp/launch_params_3_h6erso']" for fr3_arm_controller
+[rviz2-7] [WARN] [1792977051.609449951] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.609598629] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[gazebo-1] [INFO] [1792977051.611876854] [controller_manager]: Loading controller : 'fr3_arm_controller' of type 'joint_trajectory_controller/JointTrajectoryController'
+[gazebo-1] [INFO] [1792977051.611924117] [controller_manager]: Loading controller 'fr3_arm_controller'
+[gazebo-1] [INFO] [1792977051.638383300] [controller_manager]: Controller 'fr3_arm_controller' node arguments: --ros-args --params-file /home/mgustav/git-repos/robot-robotique/aided_building_ws/install/aided_building_description/share/aided_building_description/config/controllers.yaml -p use_sim_time:=true --params-file /tmp/launch_params_3_h6erso --param use_sim_time:=true 
+[rviz2-7] [WARN] [1792977051.660420882] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.661106066] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977051.722488219] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977051.726169278] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.726248216] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[spawner-10] [INFO] [1792977051.739756777] [arm_controller_spawner]: Loaded fr3_arm_controller
+[gazebo-1] [INFO] [1792977051.745700872] [controller_manager]: Configuring controller: 'fr3_arm_controller'
+[gazebo-1] [WARN] [1792977051.746066561] [fr3_arm_controller]: [deprecated] 'open_loop_control' parameter is deprecated. Instead, set the feedback gains to zero and use 'interpolate_from_desired_state' parameter
+[gazebo-1] [INFO] [1792977051.746519303] [fr3_arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gazebo-1] [INFO] [1792977051.746634081] [fr3_arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gazebo-1] [INFO] [1792977051.746789402] [fr3_arm_controller]: Using 'splines' interpolation method.
+[rviz2-7] [WARN] [1792977051.756121232] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.756206278] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.761843314] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.761914485] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[gazebo-1] [INFO] [1792977051.763495449] [fr3_arm_controller]: Goals with partial set of joints are allowed
+[gazebo-1] [INFO] [1792977051.763543738] [fr3_arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[robot_state_publisher-4] [WARN] [1792977051.785249132] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977051.785746327] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.785828165] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.790583417] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.790673554] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.833676673] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.833756413] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[gazebo-1] [INFO] [1792977051.838936796] [fr3_arm_controller]: Setting initial scaling factor to 1.000000
+[gazebo-1] [INFO] [1792977051.838983131] [fr3_arm_controller]: No scaling interface set. This controller will not read speed scaling from the hardware.
+[gazebo-1] [INFO] [1792977051.844683698] [controller_manager]: Activating controllers: [ fr3_arm_controller ]
+[gazebo-1] [INFO] [1792977051.846358275] [controller_manager]: Successfully switched controllers!
+[spawner-10] [INFO] [1792977051.851553275] [arm_controller_spawner]: Configured and activated fr3_arm_controller
+[rviz2-7] [WARN] [1792977051.876411374] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.876481421] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977051.931292721] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977051.954463178] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.954893467] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977051.974029489] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977051.974108026] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.041735206] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.041876156] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [spawner-10]: process has finished cleanly [pid 208689]
+[rviz2-7] [WARN] [1792977052.224955205] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.225018735] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.337414590] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.337656518] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.390918672] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.391007160] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.496977436] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.497146133] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977052.499152141] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977052.614603075] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.614724654] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.621344579] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.621407371] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.661246962] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.661369898] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.698798269] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.698856007] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.746130977] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.746259322] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.768234730] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.768543783] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.868709292] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.869243164] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.877225217] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.877445221] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.887197828] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.887254436] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977052.939243222] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.939452597] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977052.939477995] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977052.983535743] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977052.983744630] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.026491412] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.026552331] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.053733537] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.053804850] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.067807390] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.068394662] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.094615435] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.094711675] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.162372421] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.163010197] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.259045690] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.259378487] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.268801457] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.268880373] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.269287483] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.269339546] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.342090839] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.342569876] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.385055513] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.385120295] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.548024128] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.548140265] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.597324351] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.597409870] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.623081061] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.623226641] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.627339490] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.627471024] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.645146380] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.645239715] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.706811553] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.707044050] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.737988411] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.738322669] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.770121490] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.770257462] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977053.770240161] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977053.807166065] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.807234826] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.809245941] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.809310421] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.849186005] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.849246754] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.888134946] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.888192523] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.899136289] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.899249791] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977053.993809953] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977053.993866307] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.011137340] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.011201352] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.086707257] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.086845099] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.089935666] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.090005566] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.090607717] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.090696315] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.185893584] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.185947555] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.287785225] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.288559606] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.301980572] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.302050829] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.357337001] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.357406970] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.364091494] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.365048679] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.419577590] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.419635078] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.500323044] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.500382048] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.505393871] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.506088566] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.526939819] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.527144522] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977054.576054157] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977054.576517345] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.576572917] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.640648382] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.640716446] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977054.645456163] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977054.645920719] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.645983938] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.650309091] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.650374043] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.652069031] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.652128363] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.721086122] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.721316572] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.820110893] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.820197873] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.874203886] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.874268665] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.957655963] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.957911812] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.965720772] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.965858075] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977054.984377333] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977054.984484419] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.029176550] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.029323311] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.089374683] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.089521895] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.175052542] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.177045402] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.209237009] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.209314821] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.224434346] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.224645822] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.300096057] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.300264535] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977055.301619509] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977055.310939017] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.310994028] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.336987654] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.337125401] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.411483013] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.411548691] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.447964190] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.448055004] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.505306054] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.505371635] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.512368935] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.512540016] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.600901124] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.601126554] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.616759824] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.616840153] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.679337902] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.679408705] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.693202641] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.694420328] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.701041843] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.701158515] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.702165421] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.702646428] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.757827218] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.757949766] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.773924208] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.774007294] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.775418968] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.775484635] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.777149216] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.777214873] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.818651407] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.818784486] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.896123265] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.896345898] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977055.958097120] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977055.958167309] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.020626967] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.020758224] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.030341031] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.030417401] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977056.045844664] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977056.123800286] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.123873161] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.131011835] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.131186739] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.185960379] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.186480344] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.312476484] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.312552764] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.410755763] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.410846333] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.446587386] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.446699863] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.452359953] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.452449156] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.498004510] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.498121031] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977056.658799755] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977056.666526339] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.666658539] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.713528967] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.713695867] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.718687994] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.719018274] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.720227890] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.720311968] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.721107472] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.721145815] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977056.719288556] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977056.863069347] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.863137733] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.892668626] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.892875875] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.912717706] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.912814879] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.932273223] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.932403539] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.937891034] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.937968436] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.950344876] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.950430850] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977056.983189162] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977056.983403362] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.003527457] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.003647635] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.056952738] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.057017859] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.067462100] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.067596283] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.155883907] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.155934324] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.169695522] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.170136244] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.171680932] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.171847721] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977057.172541047] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977057.173178981] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.173225076] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.282411431] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.284375264] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.288520118] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.288578581] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.296814814] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.296881407] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977057.298218690] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977057.298756005] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.298826840] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.299417783] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.299448396] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.383793129] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.385260975] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.387363943] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.387455991] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977057.387865067] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977057.401030148] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.402115766] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.441810442] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.441876312] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.462942256] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.463085920] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977057.487314637] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977057.538465903] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.538530588] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.550105789] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.551540190] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.561872543] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.562092836] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.617265848] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.617390284] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.642011216] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.642075194] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.658209706] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.658284170] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.659928628] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.659987539] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.705375384] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.705482684] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977057.706577963] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977057.714149826] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.714322062] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.773876051] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.773951109] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.789428925] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.789613666] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.885248379] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.885328846] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.918076118] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.918145433] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.930405161] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.930563666] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.977445483] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.977571003] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977057.985708810] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977057.986558756] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.016644909] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.016900229] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977058.044509025] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977058.082604783] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.082759028] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.102973451] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.103128639] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.113193474] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.113668532] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977058.118598657] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977058.134409527] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.134487315] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.175193350] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.175285502] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.206100331] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.206193455] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.215246947] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.216166806] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.247355531] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.247472669] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.332455209] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.332521626] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.347120775] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.348099841] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.374402095] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.374473380] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.379431230] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.379492004] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977058.381112448] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977058.464079026] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.464169701] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.489444306] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.489675779] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.554891996] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.555235630] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.562007554] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.562077106] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977058.562134234] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977058.584813446] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.585729594] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.588882174] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.588963753] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977058.589571385] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977058.631065482] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.631191077] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977058.632152016] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977058.642210258] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.642335176] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.654514015] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.654691319] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.674814816] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.674961823] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.696671960] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.696866731] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.712076589] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.712156829] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.740439203] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.740501410] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977058.808581366] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977058.817989652] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.818208786] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.824003430] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.824110405] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977058.880009563] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977058.880075696] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.030857005] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.031072702] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977059.088419455] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977059.092797897] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.092871833] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.104356547] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.104424349] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.160950316] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.161100248] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.174442198] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.174507281] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.220053770] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.220202846] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977059.220042880] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977059.228556574] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.228653537] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.313009677] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.313101972] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.339897544] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.339955522] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.341331615] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.341387640] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.396518506] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.396573419] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.474714094] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.474829209] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977059.475028656] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977059.480108271] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.480190428] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.487684978] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.487759855] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.488763578] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.488826037] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.524568544] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.524624914] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.632981280] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.633077373] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.791085297] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.791177605] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.875926652] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.875993850] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977059.894529344] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977059.922392873] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.922453345] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.951371250] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.951451183] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977059.979250939] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977059.979391575] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.001227695] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.001291753] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.022385428] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.022457851] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977060.036548778] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977060.037163162] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.038491192] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977060.103854684] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977060.108956356] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.109050079] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.149213140] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.149840010] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.168281088] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.168414383] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.208819568] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.208879578] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.233788643] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.233885170] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.258817244] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.259025583] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.269962261] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.270240427] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[comm_node-8] [INFO] [1792977060.357550224] [franka_comm]: Auto-moving to SAFE_ZONE
+[rviz2-7] [WARN] [1792977060.398136385] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.398283401] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.410535770] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.410773110] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.484265799] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.484326079] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977060.484755630] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977060.501902958] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.501974295] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977060.502204978] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977060.538233183] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.538306412] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.711447518] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.711600906] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.752838733] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.752909754] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.755502095] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.755576817] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.763289525] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.763415342] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.814101200] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.814509426] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.840119633] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.840501065] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.889794816] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.889914714] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.944369576] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.944479152] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977060.946358173] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977060.946447711] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.029596706] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.030033246] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.075426493] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.075491995] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.103961998] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.104395574] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.111314077] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.111419368] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.118814048] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.118884040] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.123206544] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.123289251] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.137143570] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.137645737] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.180659196] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.180727476] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.182041921] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.182089454] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977061.327035554] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977061.343810390] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.343974095] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.346586290] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.346683509] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977061.347141403] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977061.383446469] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.383682278] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.438958595] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.440635959] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.607412694] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.607480449] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.626027655] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.626512806] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.675903408] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.676023173] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.683349155] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.683466353] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.711219455] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.711285233] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977061.711891729] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977061.714094787] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.714155258] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977061.739480378] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977061.743996079] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.744518250] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.806088865] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.806152007] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.844281811] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.844691750] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.856406723] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.856607637] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.884510364] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.884569150] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.926169961] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.926237458] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977061.962808378] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977061.962869555] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.153898940] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.153995973] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.188739326] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.188960598] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977062.252924994] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977062.262482899] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.262555317] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977062.262731235] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977062.305550672] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.305704425] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.319272748] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.319353536] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.321891076] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.321951876] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.364007516] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.364146942] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977062.397698221] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977062.397748379] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.397850384] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.411052896] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.411158579] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.529557668] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.529628428] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.532362766] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.532424076] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.552165040] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.553742700] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.579531533] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.579590551] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.596889498] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.596937501] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.606897355] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.607265443] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.658643829] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.658703729] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.738847908] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.738918802] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.755629541] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.755695022] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.764349306] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.764482140] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977062.764502714] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977062.770922120] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.771054577] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.775496926] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.775561875] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977062.776919699] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977062.812541190] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.812737008] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.816869069] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.817096122] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977062.818914736] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977062.859087626] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.859174151] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977062.991730300] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977062.991793837] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.011868103] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.011988662] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.030337152] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.030393793] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.074338500] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.074403780] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.075897415] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.075971956] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.105688826] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.106030570] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.129056910] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.129123148] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.192639434] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.192770150] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.274321472] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.274428469] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.284126442] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.284330857] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.338557808] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.339961866] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.356514991] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.356785559] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977063.357886493] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977063.358913884] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.358972254] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.376204119] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.376373550] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.378454870] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.378515196] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.470744923] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.470839252] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.537771688] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.537986131] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.589708687] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.589774019] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.636746684] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.636895644] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.645393274] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.645459547] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.668525030] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.668740810] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.707163419] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.707238902] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.727059671] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.727388146] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.754367085] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.754454908] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.806313488] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.807058336] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.869287929] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.869356389] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.883222748] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.883403858] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.903117629] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.903196321] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977063.903959373] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977063.904002783] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.012184900] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.012375924] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.051620807] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.051700424] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.074391554] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.074477679] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977064.156687467] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977064.157830844] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.157964188] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.168997420] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.169180377] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.218878924] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.218946023] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.245354163] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.245534514] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.332762210] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.333857028] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.555923991] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.556041856] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.587971269] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.588027451] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.636160573] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.636223714] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.676251658] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.676318795] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.705448681] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.705529210] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.825951114] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.826075964] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.880228613] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.880472316] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.918365562] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.918606880] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.930334456] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.930668964] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.960848987] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.960922929] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977064.966356089] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.966525189] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977064.968328555] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977064.989633113] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977064.989751902] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.009625355] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.010411430] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.043095005] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.043235235] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.068735304] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.068802940] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.087537316] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.087617530] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.108328169] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.108400061] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.182964234] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.183083671] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.184748322] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.184804253] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.187586820] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.187655193] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.235021210] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.235083264] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.254685861] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.254789865] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.334406999] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.334475336] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.354044428] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.354107347] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.370955669] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.371026938] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.372376389] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.372436536] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.384966261] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.385052089] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977065.385395880] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977065.431446448] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.431607029] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.464161276] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.464226156] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.478028797] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.478624375] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.516100658] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.516215659] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.534389088] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.534459492] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.555977146] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.556048802] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.576933671] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.577001916] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.715935835] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.716006558] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.802729891] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.802810485] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.804851766] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.804911736] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.827936636] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.828390582] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.833491923] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.833599859] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.919068616] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.919136294] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.946327287] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.946390617] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.950574096] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.950638691] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.978742109] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.978925515] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977065.998824922] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977065.999981143] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.029336916] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.029403653] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.049876063] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.049943791] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.067030794] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.067102719] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977066.067279718] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977066.070911494] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.070973943] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.072466536] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.072521592] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.110496079] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.110775722] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.178022170] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.178678930] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.188928987] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.189408224] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.238150939] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.238227378] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.249090800] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.249328509] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.251442831] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.251613151] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.287689896] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.287752844] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.540244614] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.540468455] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.715006329] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.715084567] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.780131256] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.780196980] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.825775347] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.825845345] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977066.847931149] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977066.855597445] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.855685179] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977066.856138861] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977066.856910210] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.856951607] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.857532752] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.857572046] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.894258501] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.894330894] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.911848646] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.911915862] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.913348615] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.913401448] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977066.925776652] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977066.925905212] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977066.927160281] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977067.016895321] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.017048764] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.034926201] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.034990849] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.044679989] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.044757257] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.062379735] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.062448369] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.082446329] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.082643491] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977067.087015912] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977067.090862539] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.091061395] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.099444617] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.099605410] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.104674312] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.104740726] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.175120407] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.175355071] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.205599613] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.205650479] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.249005827] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.249324194] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.273809481] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.274039332] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.316173204] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.316238219] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.341034094] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.341186079] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.352139348] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.352244359] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.363781761] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.363844309] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.391279367] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.391795656] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.426702393] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.426767554] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.457304631] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.457849586] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.467753649] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.467815774] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.535701438] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.535822218] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977067.560401556] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977067.592950095] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.593047025] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.600026803] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.600128001] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.613135882] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.613200458] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.627112955] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.627206304] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.658810155] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.658937669] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977067.669900365] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977067.720784242] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.720848807] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.729243728] [rviz2]: Detected jump back in time. Resetting RViz.
+[robot_state_publisher-4] [WARN] [1792977067.729393628] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977067.729604393] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.739197749] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.739343741] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.771022056] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.771400552] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.791708983] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.792600962] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.812382435] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.812601811] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.852825291] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.852909034] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.934410850] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.934473429] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977067.939938888] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977067.940209565] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977067.977675851] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977068.009710275] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977068.009848683] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977068.043192008] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977068.043258922] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[rviz2-7] [WARN] [1792977068.082551689] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977068.082732494] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[robot_state_publisher-4] [WARN] [1792977068.118705526] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[rviz2-7] [WARN] [1792977068.156952279] [rviz2]: Detected jump back in time. Resetting RViz.
+[rviz2-7] [WARN] [1792977068.157018638] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
