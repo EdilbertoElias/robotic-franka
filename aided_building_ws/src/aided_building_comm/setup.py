@@ -20,6 +20,7 @@ setup(
     entry_points={
         'console_scripts': [
             'comm_node = aided_building_comm.comm_node:main',
+            'clock_filter = aided_building_comm.clock_filter:main',
         ],
     },
 )

@@ -1,0 +1,8 @@
+notes/*
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.pytest_cache/
+.colcon_installed_package_paths
