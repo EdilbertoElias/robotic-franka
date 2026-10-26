@@ -73,17 +73,18 @@
     </joint>
     <!-- Franka Hand: only finger_joint1 is commanded (finger position = width / 2).
          finger_joint2 is a URDF mimic joint; it must be listed here with state
-         interfaces only, otherwise gz_ros2_control does not drive it. -->
+         interfaces only, otherwise gz_ros2_control does not drive it.
+         They start 0.5 mm below the 0.04 limit: Gazebo sticks a joint resting on it. -->
     <joint name="fr3_finger_joint1">
       <command_interface name="position"/>
       <state_interface name="position">
-        <param name="initial_value">0.04</param>
+        <param name="initial_value">0.0395</param>
       </state_interface>
       <state_interface name="velocity"/>
     </joint>
     <joint name="fr3_finger_joint2">
       <state_interface name="position">
-        <param name="initial_value">0.04</param>
+        <param name="initial_value">0.0395</param>
       </state_interface>
       <state_interface name="velocity"/>
     </joint>

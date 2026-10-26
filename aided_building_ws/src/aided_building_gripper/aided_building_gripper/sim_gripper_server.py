@@ -61,6 +61,9 @@ class SimGripperServer(Node):
         self.stall_speed = float(p('stall_speed', 0.002).value)     # [m/s]
         self.stall_time = float(p('stall_time', 0.3).value)         # [s]
         self.squeeze = float(p('grasp_squeeze', 0.002).value)       # [m] width
+        # Gazebo (DART) sticks a prismatic joint that sits exactly on its limit,
+        # so the fully open setpoint stays this far below max_width.
+        self.limit_margin = float(p('limit_margin', 0.001).value)   # [m] width
         self.state_rate = float(p('state_publish_rate', 15.0).value)
 
         self._lock = threading.Lock()
@@ -122,7 +125,7 @@ class SimGripperServer(Node):
             return self._width, self._speed
 
     def _send(self, width):
-        width = min(max(width, 0.0), self.max_width)
+        width = min(max(width, 0.0), self.max_width - self.limit_margin)
         with self._lock:
             self._setpoint = width
         self.cmd_pub.publish(Float64MultiArray(data=[width / 2.0]))

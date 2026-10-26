@@ -17,3 +17,4 @@
     stall_speed: 0.002       # [m/s] below this the fingers are considered stopped
     stall_time: 0.3          # [s]
     grasp_squeeze: 0.002     # [m]  hold setpoint below the contact width
+    limit_margin: 0.001      # [m]  fully open setpoint below max_width (Gazebo sticks at the joint limit)
