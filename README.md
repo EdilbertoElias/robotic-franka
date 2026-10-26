@@ -2,6 +2,16 @@
 
 Base inicial do projeto **Human-Robot Collaborative Manual Soldering & Dynamic Trust Assessment** para um robô Franka. Nesta etapa o ambiente é totalmente simulado no Gazebo, a percepção é sintética e o pipeline de confiança e segurança já roda de ponta a ponta.
 
+## Divisão do projeto
+
+O projeto será dividido em três frentes de trabalho:
+
+| Frente | Responsável | Escopo |
+| --- | --- | --- |
+| 1 | Gustavo | Planejamento e movimentação do robô |
+| 2 | Lucas | Captura de dados da mão do trabalhador e da posição da placa de trabalho |
+| 3 | Edilberto | Leitura da face com câmera adicional para capturar as expressões do operador |
+
 ## Escopo desta base
 
 - Modelo Franka (FR3 por padrão) com ferramenta de solda acoplada.
